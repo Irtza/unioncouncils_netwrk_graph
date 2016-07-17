@@ -1,14 +1,8 @@
-
-# coding: utf-8
-
-# In[1]:
-
 import pandas as pd
 import networkx as nx
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
 
-# In[2]:
 
 import matplotlib.pyplot as plt
 
