@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>Page Title</h1>
+        <p>This is a really interesting paragraph.</p>
+    </body>
+</html>
+
+
+<script>
+function diagonal(d) {
+var x0 = d.source.x, y0 = y(d.source.depth),
+    x1 = d.target.x, y1 = y(d.target.depth);
+if (x0 < x1) x0 += w(d.target.probability) / 2;
+else if (x0 > x1) x0 -= w(d.target.probability) / 2;
+return "M" + x0 + "," + y0
+    + "C" + x0 + "," + (y0 + y1) / 2
+    + "," + x1 + "," + (y0 + y1) / 2
+    + "," + x1 + "," + y1;
+}
+
+})(); 
+</script>
