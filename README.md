@@ -5,4 +5,6 @@ This is a connected network graph for representing structured data of union coun
 
 This repository is a submodule to the submission to the aforementioned Hackathon
 
+Run using : 
 
+python networkx_graphVis.py
